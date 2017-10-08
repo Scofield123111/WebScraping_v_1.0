@@ -1,7 +1,8 @@
 # WebScraping_v_1.0
 java网站爬虫v1.0
+<br/>
 可以爬取笔趣读网站上的小说，输出为txt文本（自定义路径）
-
+<br/>
 注意事项：
 1.仅限于爬取笔趣读网站上的小说http://www.biqudu.com/
 2.用户接口在UserInterface这个类中，可输入开始网址，结束网址，txt文本保存的地址（注意转义）
@@ -21,7 +22,7 @@ public class UserInterface {
     }
 }
 ```
-
+<br/>
 下个版本更新：
 1.用户接口处输入网址改成小说的章节列表地址，比如http://www.biqudu.com/0_32/ ，从其中爬取跳转的url
 2.优化字符串解析xiaol
